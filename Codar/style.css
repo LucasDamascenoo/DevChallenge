@@ -1,0 +1,183 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+
+
+
+body, ul , li, p {
+
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+}
+
+.menu-principal {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+button {
+
+  background:#D6000D;
+  color: white;
+  border-radius: 5px;
+
+}
+
+
+.lista-principal {
+  display: flex;
+
+}
+
+.lista-principal li, button {
+  margin-left: 20px;
+  font-size: 1.2em;
+ 
+}
+
+
+
+.container {
+  display: flex; 
+  align-items: center;
+  padding: 80px;
+  justify-content: center;
+}
+
+.container {
+
+  margin-top: -80px;
+  
+
+}
+
+.video img {
+  width:300px;
+}
+
+.conteudo-um {
+  padding: 100px;
+  font-size: 1.2em;
+}
+
+.conteudo-um h1 {
+  color: #D6000D;
+}
+
+.container-2 {
+  display: flex; 
+  align-items: center;
+  padding: 80px;
+  justify-content: center;
+
+}
+
+.container-2 {
+
+  margin-top: -100px;
+ 
+}
+
+.coding img {
+  width:300px
+  
+}
+
+.container-2 li::before {
+
+  content: "✔";
+  padding: 10px;
+
+}
+
+.celular p {
+
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 20px;
+  
+}
+
+.celular form {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.experiecia {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ 
+}
+
+.box1{
+
+  border: solid 1px none;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+
+}
+
+.box1 p {
+display: flex;
+background: #E8E8E8;
+padding: 0 50px;
+text-align: center;
+
+
+}
+
+.box1 p:nth-child(4n) {
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+
+}
+
+footer {
+
+  margin-top: 10px;
+
+  padding: 70px;
+}
+
+
+.footer p:nth-child(1) {
+
+  font-size: 25px;
+
+}
+
+.pt2 {
+
+  margin-top: 10px;
+}
+
+
+.pt3{
+  margin-top: 10px;
+
+}
+
+
+.pt4 i {
+color: #D6000D;
+font-size: 25px;
+margin: 10px;
+
+}
